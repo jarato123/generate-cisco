@@ -36,10 +36,8 @@ ip dhcp excluded-address 10{.xD.x.}251 10{.xD.x.}255
 !
 ip dhcp pool Voice
  network 10{.xV.x.}0 255.255.255.0
- dns-server 10.9.30.6 10.9.30.7 10.7.30.6 10.7.30.7
  domain-name dgrp.ad
  default-router 10{.xD.x.}1
- option 150 ip 10.9.21.13 10.7.21.12
 !
 !
 qos wireless-default-untrust
